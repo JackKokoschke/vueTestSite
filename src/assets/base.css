@@ -31,6 +31,19 @@
   --spacing5: 2.5rem;
   --spacing6: 5rem;
   --spacing7: 10rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  /************** Icon **************/
+  --icon-size: 2.25rem;
+  --nav-bar-size: calc(
+    (var(--spacing2) * 2) + /* top padding of .nav-tab */
+      (6 * (var(--icon-size) + (var(--spacing2) * 2))) +
+      /* 6 icons with top/bottom padding each */ (5 * var(--spacing2))
+      /* 5 gaps between the 6 icons */
+  );
 }
 
 *,

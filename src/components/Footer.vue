@@ -11,5 +11,6 @@
   left: 0;
   width: 100%;
   background-color: var(--bg);
+  border-top: 1px solid var(--border-muted);
 }
 </style>
