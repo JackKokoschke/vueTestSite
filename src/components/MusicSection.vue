@@ -6,6 +6,5 @@
 </template>
 
 <style scoped>
-.section-box {
-}
+
 </style>
